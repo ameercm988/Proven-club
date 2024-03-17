@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  /* height: 100%;
+  width: 100%; */
+}
+
+.main h2 {
+  width: 100%;
+  background-color: rgb(157, 163, 161);
+}
+
+.sub_main {
+  display: flex;
+  flex-direction: column;
+  /* display: list-item; */
+}
+.btndiv {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.checkoutbtn {
+  width: 100px;
+  height: 30px;
+  background-color: #5dd83e;
+  font-weight: 600;
+  padding: 10px 0px 0px 15px;
+}
+
+.returnbtn {
+  width: 100px;
+  height: 30px;
+  background-color: #2a98ec;
+  font-weight: 600;
+  padding: 1px 0px 0px 15px;
+}
